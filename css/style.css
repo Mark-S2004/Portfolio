@@ -1,4 +1,7 @@
 /* -------------------- Global Styling -------------------- */
+body{
+    font-family: Consolas, monospace;
+}
 
 /* -------------------- Featured Projects -------------------- */
 .card-link{
