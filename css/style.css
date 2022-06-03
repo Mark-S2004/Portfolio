@@ -15,10 +15,9 @@ p {
 
 /* -------------------- Featured Projects -------------------- */
 .card-link{
+    display: block;
     color: black;
     text-decoration: none;
-}
-#projects section{
     text-align: center;
     width: 40%;
     border-radius: 30px;
@@ -51,13 +50,13 @@ p {
 
 @media (hover: hover){
     /* -- Featured projects -- */
-    #projects section:hover{
+    .card-link:is(:hover, :focus){
         transform: translate(-10px, -10px);
         box-shadow: 14px 14px 8px 4px #DDD;
     }
 
     /* -- Featured projects -- */
-    #work-experience a:hover{
+    #work-experience a:is(:hover, :focus){
         transform: translate(-5px, -5px);
         box-shadow: 9px 9px 8px 1px #CCC;
     }
