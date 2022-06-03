@@ -2,6 +2,13 @@
 body{
     font-family: Consolas, monospace;
 }
+p {
+    /* for accessibilty */
+    max-width: 70ch;
+    line-height: 1.5em;
+    word-spacing: 0.16em;
+    letter-spacing: 0.12em;
+}
 
 /* -------------------- Featured Projects -------------------- */
 .card-link{
