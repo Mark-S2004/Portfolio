@@ -1,4 +1,7 @@
 /* -------------------- Global Styling -------------------- */
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: Consolas, monospace;
 }
