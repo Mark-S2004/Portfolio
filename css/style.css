@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 /* -------------------- Global Styling -------------------- */
 html {
     scroll-behavior: smooth;
 }
 body{
-    font-family: Consolas, monospace;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
 }
 p {
     /* for accessibilty */
